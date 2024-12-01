@@ -52,7 +52,7 @@ func solvePart2(input string) int {
     totalScore := 0
     for _, num := range column1 {
         if count, exists := frequency[num]; exists {
-            totalOcc += num * count
+            totalScore += num * count
         }
     }
 
